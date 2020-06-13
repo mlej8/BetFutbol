@@ -1,0 +1,8 @@
+{% extends 'base_layout.html' %}
+{% block content %}    
+    <ul>
+    {% for match in matches %}   
+    <li><a href="{% url 'FutbolPredictor:match' match.id %}">{{match.home_team.name }} vs {{match.away_team.name}} on {{match.date}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'base_layout.html' %}
+{% block content %}    
+<ul>
+    <li>{{match.home_team.name }} vs {{match.away_team.name}}</li>    
+    <li>Date: {{match.date}}</li>    
+    <li>Location: {{match.location}}</li>
+</ul>
+{% endblock %}

@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-image: url(../img/PremierLeague.jpg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-y: 50px;   
+    background-position-x: center;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: red;
+    
+}
+p{
+    font-family: "Verdana";
+}
+
+li{
+    font-family:"Verdana";
+}
+
+#NavigationBar{
+    background-color: white;
+    border-style: none;
+    height: 70px;
+    opacity: 0.75;
+}
+
+.howTo{
+    height:30px;
+    width:350px;
+    margin-left:15px;
+    
+}
+
+.topbutton{
+    color:gray;
+    font-family: "Verdana";
+    font-size: 18px;
+    padding: 10px;
+    border: 1px;
+    margin: 5px;
+    font-weight: bold; 
+    opacity: 0.75;
+    display:inline;
+    margin-top: 10px;
+}
+
+
+.navbar{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    /* margin 10px? */
+}
+
+div.homescreen{
+    position: relative;
+    width: 100%;
+    height: 700px;   
+
+}
+
+#PredictNow{
+    position: absolute;
+    top:67%;
+    right: 45.8%;
+    display:inline-block;
+    color: grey;
+	font-size: 1em;
+	opacity:1;
+	background-color:white;
+    /* padding-bottom: 10px; */
+    outline: none ;
+    /* outline-color: grey;
+    outline-width: 3px; */
+    border: 1px;
+    border-style: groove;
+    border-radius:10px;
+    margin: 0px;
+    font-family : "Verdana";   
+    padding: 10px; 
+    text-align: center;
+    -webkit-animation: bounce 2s infinite;    
+}   
+
+
+@-webkit-keyframes bounce {
+    30% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+50%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+70%{
+transform: scale(1,1.1) translate(0px, -25px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}}
+
+#name {
+    margin-top: 2px;
+}
+
+.container-fluid {
+    float: right;
+
+}
+#name{
+    float: left;
+    color:grey;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.Description {
+    height: 600px;
+    padding-left: 25px;
+    background-color: white;
+    opacity: 0.75;
+    margin: 60px;
+    padding: 35px;
+}
+
+.paragraph {
+    padding: 15px;
+   
+} 
+
+.content-section {
+    position: absolute;
+    top: 1025px;
+    left:120px;
+    background: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+}
+
+.form-group{
+    text-align: center;
+}
+
+.list{
+    position:absolute; 
+    top: 925px;
+    right: 180px; 
+}
+
+.image1 {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+}
+
+.image2 {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right:100px
+    
+}
+
+#text1 {
+    height: 300px;
+    margin-top: 40px;
+}
+
+#text1 p {
+    margin-left: 15px;   
+    line-height: 30px;
+}
+
+.paragraph {
+    padding: 15px;
+} 
+
+
+.text2{
+    height: 740px;
+}
+
+.contact {
+font-family: Verdana;
+text-align: center;
+color: silver;
+background-color: black;
+height: 130px;
+opacity: 0.7;
+}
+
+.contact h3 {
+    font-weight: bold;
+}
+
+#submit {
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 50px;
+    width: 450px;
+    height: 400px;
+    font-family: Verdana;
+    
+    
+}
+
+#submit input {
+    padding:20px;
+}
+
+#submit span {
+    text-align: center;
+}
+
+.output{
+    position:absolute;
+    top: 1230px;
+    left: 150px;
+    text-align:center;
+}
+
+#HomeAdvantage {
+    height: 500px;
+    width: 900px;
+    margin: auto; 
+    border: auto;
+    position: absolute;
+    right: 250px;
+}
+
+.img1 {
+    height: 650px;
+    width: 100%;   
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+ 

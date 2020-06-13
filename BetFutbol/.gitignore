@@ -1,0 +1,9 @@
+# Django 
+settings.py
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# Other
+__pycache__/
+TODO

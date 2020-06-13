@@ -1,0 +1,29 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+<ul>
+  <li>Name: {{team.name}}</li>
+  <li>League: {{team.name}}</li>
+  <li>Home Goal Scored: {{team.home_goals_scored}}</li>
+  <li>Away Goal Scored: {{team.away_goals_scored}}</li>
+  <li>Home Attacking Strength: {{team.home_attacking_strength}}</li>
+  <li>Away Attacking Strength: {{team.away_attacking_strength}}</li>
+  <li>Home Defensive Strength: {{team.home_defensive_strength}}</li>
+  <li>Away Defensive Strength: {{team.away_defensive_strength}}</li>
+  <li>Home Goal Conceded: {{team.home_goal_conceded}}</li>
+  <li>Away Goal Conceded: {{team.away_goal_conceded}}</li>
+  <li>Home Yellow Card Index: {{team.home_yellow_card_index}}</li>
+  <li>Away Yellow Card Index: {{team.away_yellow_card_index}}</li>
+  <li>Home Red Card Index: {{team.home_red_card_index}}</li>
+  <li>Away Red Card Index: {{team.away_red_card_index}}</li>
+  <li>Home Shot On Target Index: {{team.home_shot_on_target_index}}</li>
+  <li>Away Shot On Target Index: {{team.away_shot_on_target_index}}</li>
+  <li>Home Foul Index: {{team.home_foul_index}}</li>
+  <li>Away Foul Index: {{team.away_foul_index}}</li>
+  <li>Home Shot Index: {{team.home_shot_index}}</li>
+  <li>Away Shot Index: {{team.away_shot_index}}</li>
+  <li>Home Corner Kick Index: {{team.home_corner_kick_index}}</li>
+  <li>Away Corner Kick Index: {{team.away_corner_kick_index}}</li>
+  <li>Home Conversion Rate: {{team.home_conversion_rate}}</li>
+  <li>Away Conversion Rate: {{team.away_conversion_rate}}</li>
+</ul>
+{% endblock %}

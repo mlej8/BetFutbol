@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BetFutbol</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Stylesheets-->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    <!--Javacript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    
+    <title>{% block title %}BetFutbol{% endblock %}</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse" id="NavigationBar">
+            <div>
+                <span class="topbutton" id="name">EPL Prediction Bot</span>
+            </div>
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="{% url 'FutbolPredictor:predictions' %}">
+                            <span class="topbutton">Home</span>
+                        </a></li>
+                    <li><a href="{% url 'FutbolPredictor:matches' %}">
+                            <span class="topbutton">Matches</span>
+                        </a></li>
+                    <li><a href="{% url 'FutbolPredictor:teams' %}">
+                            <span class="topbutton">Teams</span>
+                        </a></li>
+                    <li><a href="{% url 'FutbolPredictor:leagues' %}">
+                            <span class="topbutton">Leagues</span>
+                        </a></li>
+                    <li><a href="#">
+                            <span class="topbutton">About</span>
+                        </a></li>
+                    <li><a href="{% url 'accounts:login' %}">
+                            <span class="topbutton">Login</span>
+                        </a></li>
+                    <li><a href="{% url 'accounts:register' %}">
+                            <span class="topbutton">Register</span>
+                        </a></li>
+                    <li><a href="{% url 'accounts:profile' %}">
+                            <span class="topbutton">Profile</span>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        <div class="contact">
+            <h3 id="Contact">
+                <br>
+                Contact Us
+            </h3>
+            <p>
+                <br>
+                Michael Li <br>
+                <scan><a href="mailto:mlej@live.com">mlej@live.com</a></scan>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+language: python
+  
+install:
+  - pip install pipenv
+  - pipenv install
+
+script: python manage.py check 
+# Running python manage.py check instead of test for now
+# Setup automatic deployment to heroku after successful build
+# deploy:
+#   provider: heroku
+#   api_key:
+#     secure: "YOUR ENCRYPTED API KEY"
